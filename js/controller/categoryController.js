@@ -27,8 +27,9 @@ document.addEventListener("DOMContentLoaded", () =>{
         const id = form.categoryId.value; //se obtiene el id guardado en el form
 
         const data = {
+
             nombreCategoria: form.categoryName.value.trim(),
-            descripcion: form.categoryDescripcion.value.trim()
+            descripcion: form.categoryDescription.value.trim()
         };
 
         try{
