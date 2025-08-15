@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () =>{
                     //pasamos los datos del JSON a los campos del formulario
                     form.categoryId.value = cat.idCategoria;
                     form.categoryName.value = cat.nombreCategoria;
-                    form.categoryDescripcion.value = cat.descripcion;
+                    form.categoryDescripcion = cat.descripcion;
 
                     //aqui le ponemos el titulo al formulario
                     lbModal.textContent = "Editar Categoria";
